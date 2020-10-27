@@ -30,7 +30,7 @@ class App extends Component {
   
   // Definição usando ES6, que não requer binding.
   changeHandler = e => {
-    this.setState({searchField: e.target.value})
+    this.setState({ searchField: e.target.value })
   }
 
   render() {
